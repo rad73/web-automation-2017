@@ -12,6 +12,8 @@ It's targeted to people who just started automating or want to switch from bunch
 
 ## Overview
 
+[![On the Internet, nobody knows you're a dog](internet_dog.jpg)]
+
 Simple web automation scripts can be written in bash or python.
 However, this approach fails short in the face of network failures, different ways of delivering notifications and need to transform data.
 
