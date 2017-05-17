@@ -40,7 +40,7 @@ Two years later a number of open source alternatives emerged, most notably:
 
 Other services implemented web automation as a service with slightly different targeting:
 
-* [If This Than That](https://ifttt.com) - targeted on IoT and mobile devices.
+* [If This Then That](https://ifttt.com) - targeted on IoT and mobile devices.
 * [Bip.io](https://bip.io) - both open source and paid hosted solutions.
 
 Projects that don't follow SaaS way:
