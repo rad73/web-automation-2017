@@ -102,7 +102,9 @@ Installation is pretty involved, but well documented.
 
 ## Trigger Happy
 
-[Trigger-Happy](https://trigger-happy.eu/) is similar to Huginn in design but is implemented as a reusable Django application. The community is smaller, and the project doesn't see much attention these days.
+[Trigger-Happy](https://trigger-happy.eu/) is similar to Huginn in design but is implemented as a reusable Django application.
+The community is smaller, and the project doesn't see much attention these days.
+With 900 stars on GitHub, 1000 triggers configured by 200 users on website, project lives its life slowly but surely.
 
 ## IFTTT
 
