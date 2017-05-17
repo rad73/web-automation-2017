@@ -163,4 +163,4 @@ There is no silver bullet, and each solution has it's pros and cons.
 
 Try this flowchart
 
-[![Choose web automation foundation](decision-tree.svg)]
+[![Choose web automation foundation](decision-tree.png)]
