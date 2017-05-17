@@ -123,7 +123,7 @@ Bips are configured by defining a graph (hub) across nodes (channels). Channels 
 ## Home Assistant
 
 [Home Assistant](https://home-assistant.io/) is an open source home automation platform.
-It is capable of tracking, controling and automating most devices at home.
+It is capable of tracking, controling and automating lights, media players and other "smart" devices at home.
 Home Assistant can deployed on any machine that runs Python 3 - from a Raspberry Pi to a NAS device.
 It integrates with a number of open-source as well as commercial offerings like IFTTT, weather information, Amazon Echo.
 There are sensors for RESTfull services and advanced HTTP handlers, that make the product a good fit for web automation needs.
