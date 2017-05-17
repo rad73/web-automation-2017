@@ -28,19 +28,22 @@ The common examples of web automation tasks include:
 * Fetching weather prediction
 * Aggregating digest of social network updates
 * Building complex reminders
+* Keeping tabs on online resources
+* Development automation
 
-The year of technology birth can be said to be 2011, when [Zapier](https://zapier.com) launched on [Startup Weekend](http://startupweekend.org/).
+In 2011 [Zapier](https://zapier.com) launched on [Startup Weekend](http://startupweekend.org/).
+It was the first solution of a kind.
 Two years later a number of open source alternatives emerged, most notably:
 
 * [Huginn](https://github.com/huginn/huginn) - Multi-tenant web solution written and extendable in Ruby.
 * [Trigger-Happy](https://trigger-happy.eu/) - Similar solution, but with much fewer recipes and written as a reusable Django application.
 
-And some paid services, with slightly different targeting:
+Other services implemented web automation as a service with slightly different targeting:
 
 * [If This Than That](https://ifttt.com) - targeted on IoT and mobile devices.
 * [Bip.io](https://bip.io) - both open source and paid hosted solutions.
 
-Also worth mentioning open source solutions:
+Projects that don't follow SaaS way:
 
 * [Home Assistant](https://home-assistant.io/) - Platform for home automation with web automation capabilities.
 * [Kibitzr](https://kibitzr.github.io) - Command-line utility extendable with Python and Bash scripts.
@@ -69,7 +72,7 @@ Libraries for parsing and scraping web pages:
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) parses malformed HTML.
 * [Scrapy](https://scrapy.org/) - fast and powerful scraping and web crawling framework.
 
-## Zapier 
+## Zapier
 
 [Zapier](https://zapier.com) is the most popular web automation app.
 Zapier tasks are called Zaps.
@@ -153,3 +156,11 @@ Being a late to the party, Kibitzr doesn't try to have all possible integrations
 Instead, it can be hooked to Zapier, or any other web automation provider for missing parts.
 
 Another strong aspect of Kibitzr is support for browser automation through Selenium scripts or simplified form filling (which covers most use cases).
+
+## How to choose the right solution?
+
+There is no silver bullet, and each solution has it's pros and cons.
+
+Try this flowchart
+
+[![Choose web automation foundation](decision-tree.png)]
