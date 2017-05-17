@@ -124,7 +124,7 @@ Bips are configured by defining a graph (hub) across nodes (channels). Channels 
 
 [Home Assistant](https://home-assistant.io/) is an open source home automation platform,
 It is designed to be deployed on any machine that is capable of running Python 3, from a Raspberry Pi to a NAS device.
-It integrates with a number of open-source as well as commercial offerings like IFTTT, weather information, Amazon Echo, but is targeted at controls of "smart" locks and lights.
+It integrates with a number of open-source as well as commercial offerings like IFTTT, weather information, Amazon Echo, but is targeted at control of lights, media players and other "smart" devices.[Home Assistant](https://home-assistant.io/) is capable of tracking and controling most devices at home and automate control.
 
 ## Kibitzr
 
