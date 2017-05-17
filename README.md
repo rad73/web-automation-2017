@@ -1,4 +1,4 @@
-# The Hitchhiker's Guide to the Web Automation
+# Guide to Web Automation
 
 ## Disclaimer
 
@@ -99,7 +99,7 @@ Agents are written in Ruby language and are stored inside Huginn's subdirectory.
 
 For operating Huginn requires MySQL or PostgreSQL database and Nginx server.
 Installation is pretty involved, but well documented.
-Also project supports Docker image, that simplifies installation a lot.
+Also, the project maintains Docker image, that simplifies installation a lot.
 
 ## Trigger Happy
 
@@ -126,7 +126,7 @@ Bips are configured by defining a graph (hub) across nodes (channels). Channels 
 ## Home Assistant
 
 [Home Assistant](https://home-assistant.io/) is an open source home automation platform.
-It is capable of tracking, controling and automating lights, media players and other "smart" devices at home.
+It is capable of tracking, controlling and automating lights, media players and other "smart" devices at home.
 Home Assistant can deployed on any machine that runs Python 3 - from a Raspberry Pi to a NAS device.
 It integrates with a number of open-source as well as commercial offerings like IFTTT, weather information, Amazon Echo.
 There are sensors for RESTfull services and advanced HTTP handlers, that make the product a good fit for web automation needs.
