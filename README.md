@@ -97,8 +97,9 @@ The user builds pipelines of predefined agent types inside the browser.
 
 Agents are written in Ruby language and are stored inside Huginn's subdirectory.
 
-For operating Huginn requires MySQL database and Nginx server.
+For operating Huginn requires MySQL or PostgreSQL database and Nginx server.
 Installation is pretty involved, but well documented.
+Also project supports Docker image, that simplifies installation a lot.
 
 ## Trigger Happy
 
