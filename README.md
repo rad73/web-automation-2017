@@ -56,7 +56,7 @@ Browser automation complexity is an effect of following inherent properties of t
 * Browsers communicate through network inheriting all its failures and unreliability.
 
 But in many cases, it's the only option to extract content from the remote system.
-Number of paid solutions exists aiming to simplify web scrapping:
+Number of paid solutions exists aiming to simplify web scraping:
 
 * [Import.io](https://import.io) - turns websites into structured APIs.
 * [Portia](https://scrapinghub.com/portia/) - lets you scrape web sites without any programming knowledge required.
@@ -64,7 +64,7 @@ Number of paid solutions exists aiming to simplify web scrapping:
 
 Libraries for parsing and scraping web pages:
 
-* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - parses malformed HTML.
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) parses malformed HTML.
 * [Scrapy](https://scrapy.org/) - fast and powerful scraping and web crawling framework.
 
 ## Zapier 
@@ -95,7 +95,7 @@ Huginn organizes directed graphs of events passing between different types of ag
 There are more than 50 types of agents.
 The user builds pipelines of predefined agent types inside the browser.
 
-Agents are written in Ruby language and are stored inside Huginn's subdirectory.
+Agents are written in Ruby language and are stored inside Huginn subdirectory.
 
 For operating Huginn requires MySQL or PostgreSQL database and Nginx server.
 Installation is pretty involved, but well documented.
@@ -119,7 +119,7 @@ Bipio is a graph pipelining API talking RESTful JSON, where each node in your gr
 
 This is a JSON API supporting REST and RPC endpoints over HTTP Basic Authenticated SSL. See endpoints for further connection info. JSONP is enabled by setting the ?callback=my_function query parameter. 
 
-The graph structures, 'bips', transform content between adjacent nodes. They can be reconfigured dynamically without requiring changes to the connecting client, ideal for rapid prototyping or any kind of interprotocol communication. 
+The graph structures, 'bips', transform content between adjacent nodes. They can be reconfigured dynamically without requiring changes to the connecting client, ideal for rapid prototyping or any kind of inter protocol communication. 
 
 Bips are configured by defining a graph (hub) across nodes (channels). Channels perform a discrete unit of work and emit a predictable result, so as to be arranged on a bip's hub in meaningful ways. Collections of similar Channels reside in shared resource containers called Pods.
 
@@ -129,7 +129,7 @@ Bips are configured by defining a graph (hub) across nodes (channels). Channels 
 It is capable of tracking, controlling and automating lights, media players and other "smart" devices at home.
 Home Assistant can deployed on any machine that runs Python 3 - from a Raspberry Pi to a NAS device.
 It integrates with a number of open-source as well as commercial offerings like IFTTT, weather information, Amazon Echo.
-There are sensors for RESTfull services and advanced HTTP handlers, that make the product a good fit for web automation needs.
+There are sensors for RESTful services and advanced HTTP handlers, that make the product a good fit for web automation needs.
 
 ## Kibitzr
 
