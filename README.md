@@ -57,7 +57,7 @@ This is a simplistic scenario, but even it has a few problems:
 * Complex grep expressions are unmaintainable.
 * Sending e-mail from bash is unreliable and requires system setup.
 
-What if you want the message in instant messenger or SMS?
+What if you want the notification in instant messenger or SMS?
 Fitting everything inside one bash script will leave you with a messy tool.
 
 Many solutions try to remove boilerplate from web automation tasks, by providing:
