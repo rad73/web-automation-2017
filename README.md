@@ -13,7 +13,7 @@ It's targeted to people who are just starting automation or want to switch from 
 ## What is web automation
 
 *au·to·ma·tion (/ˌôdəˈmāSH(ə)n/ noun)* --
-the use of largely automatic equipment in a system of manufacturing or other production process.
+the use of largely automatic equipment in a system of manufacturing or other production processes.
 
 Example: "Unemployment due to the spread of automation"
 
@@ -27,16 +27,16 @@ Web automation replaces human with software for repetitive and tedious tasks, su
 
 Simple web automation scripts can be written using general tools.
 For example, crontab task that periodically runs `curl`, filters it's output with grep, and sends an e-mail in case of a match (or non-match).
-This is simplistic scenario, but even it has a few problems:
+This is a simplistic scenario, but even it has a few problems:
 
-* HTTP errors, such as `503 - Service Temporary Unavailable`, will have poor formatting in report.
+* HTTP errors, such as `503 - Service Temporary Unavailable`, will have poor formatting in the report.
 * Complex grep expressions are unmaintainable.
 * Sending e-mail from bash is unreliable and requires system setup.
 
-What if you want message in instant messanger, or SMS?
+What if you want the message in instant messenger or SMS?
 Fitting everything inside one bash script will leave you with a messy tool.
 
-A number of solutions tries to remove boilerplate from web automation tasks, by providing:
+A number of solutions try to remove boilerplate from web automation tasks, by providing:
 
 * A foundation for making network requests and connecting them to actions.
 * Collection of recipes for solving common problems built on top of the foundation.
@@ -46,14 +46,14 @@ Sometimes it's really hard to draw a line between automation and programming.
 
 ## Applications
 
-Small businesses as well as huge enterprises can benefit from applying web automation solutions.
+Small businesses, as well as huge enterprises, can benefit from applying web automation solutions.
 Here are some simple examples of what companies do.
 
-When new customer is registered in a client relations management system, create a new queue in tickets tracker.
-For every service, that customer requested inside CRM, create new ticket in an appropriate queue.
+When a new customer is registered in a client relations management system, create a new queue in tickets tracker.
+For every service, that customer requested inside CRM, create a new ticket in an appropriate queue.
 That way two focused products can be combined to deliver complete customer satisfaction workflow.
 
-Another example. Typeform provides stunning interface for complex forms submission, but can't process collected data.
+Another example. Typeform provides a stunning interface for complex forms submission, but can't process collected data.
 WebMerge fills Excel spreadsheets and run calculations, but has a deterring appearance for unprepared customer.
 Web automation connects data from Typeform to WebMerge spreadsheets and delivers a solution for instant project cost estimation.
 
@@ -162,7 +162,7 @@ Bipio is a graph pipelining API talking RESTful JSON, where each node in your gr
 
 This is a JSON API supporting REST and RPC endpoints over HTTP Basic Authenticated SSL. See endpoints for further connection info. JSONP is enabled by setting the ?callback=my_function query parameter. 
 
-The graph structures, 'bips', transform content between adjacent nodes. They can be reconfigured dynamically without requiring changes to the connecting client, ideal for rapid prototyping or any kind of inter protocol communication. 
+The graph structures, 'bips', transform content between adjacent nodes. They can be reconfigured dynamically without requiring changes to the connecting client, ideal for rapid prototyping or any kind of inter-protocol communication. 
 
 Bips are configured by defining a graph (hub) across nodes (channels). Channels perform a discrete unit of work and emit a predictable result, so as to be arranged on a bip's hub in meaningful ways. Collections of similar Channels reside in shared resource containers called Pods.
 
@@ -177,9 +177,9 @@ There are sensors for RESTful services and advanced HTTP handlers, that make the
 ## Kibitzr
 
 [Kibitzr](https://kibitzr.github.io) outstands from the list in architecture.
-It doesn't provide user interface and doesn't require database to run.
-Kibitzr serves list of checks.
-Checks are defined in single YAML file.
+It doesn't provide a user interface and doesn't require a database to run.
+Kibitzr serves a list of checks.
+Checks are defined in a single YAML file.
 Each check is a pipeline of following steps:
 
 1. Fetch page;
@@ -190,14 +190,14 @@ Each step can contain arbitrary Bash or Python code snippets.
 
 Like Home Assistant, it can be launched whenever Python is available (Version 2 as well as 3).
 
-Being a late to the party, Kibitzr doesn't try to have all possible integrations built-in.
-Instead, it can be hooked to Zapier, or any other web automation provider for missing parts.
+Being late to the party, Kibitzr doesn't try to have all possible integrations built-in.
+Instead, it can be hooked to Zapier or any other web automation provider for missing parts.
 
 Another strong aspect of Kibitzr is support for browser automation through Selenium scripts or simplified form filling (which covers most use cases).
 
 ## How to choose the right solution?
 
-There is no silver bullet, and each solution has it's pros and cons.
+There is no silver bullet, and each solution has its pros and cons.
 
 Try this flowchart
 
