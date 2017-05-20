@@ -8,14 +8,20 @@ I'm an enthusiast and not a professional user of all mentioned products, feel fr
 
 This document covers existing web automation projects, services, and platforms.
 
-It's targeted to people who just started automating or want to switch from bunch shell scripts to a more solid foundation.
+It's targeted to people who are just starting automation or want to switch from a bunch of shell scripts to a more solid foundation.
+
+## What is web automation
+
+*au·to·ma·tion (/ˌôdəˈmāSH(ə)n/ noun)*
+the use of largely automatic equipment in a system of manufacturing or other production process.
+Example: "Unemployment due to the spread of automation"
 
 ## Overview
 
 [![On the Internet, nobody knows you're a dog](Internet_dog.jpg)]
 
 Simple web automation scripts can be written in bash or python.
-However, this approach fails short in the face of network failures, different ways of delivering notifications and need to transform data.
+However, this approach fails short in the face of network failures, different ways of delivering notifications and a need to transform data.
 
 A number of solutions try to remove boilerplate from web automation tasks.
 These solutions provide:
