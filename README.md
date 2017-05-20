@@ -50,6 +50,7 @@ For example, crontab job that:
 * runs `curl`
 * filters it's output with grep
 * and sends an e-mail in case of a match (or non-match).
+
 This is a simplistic scenario, but even it has a few problems:
 
 * Unexpected HTTP errors will have poor to no formatting in the report.
