@@ -53,6 +53,10 @@ When new customer is registered in a client relations management system, create 
 For every service, that customer requested inside CRM, create new ticket in an appropriate queue.
 That way two focused products can be combined to deliver complete customer satisfaction workflow.
 
+Another example. Typeform provides stunning interface for complex forms submission, but can't process collected data.
+WebMerge fills Excel spreadsheets and run calculations, but has a deterring appearance for unprepared customer.
+Web automation connects data from Typeform to WebMerge spreadsheets and delivers a solution for instant project cost estimation.
+
 Personal applications of web automation include:
 
 * Notifying on weather conditions on predefined times
