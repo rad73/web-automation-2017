@@ -10,7 +10,7 @@ This document covers existing web automation projects, services, and platforms.
 
 It's targeted to people who are just starting automation or want to switch from a bunch of shell scripts to a more solid foundation.
 
-## What is web automation
+# What is web automation
 
 *au·to·ma·tion (/ˌôdəˈmāSH(ə)n/ noun)* --
 the use of largely automatic equipment in a system of manufacturing or other production processes.
@@ -46,8 +46,8 @@ Sometimes it's really hard to draw a line between automation and programming.
 
 ## Applications
 
-Small businesses, as well as huge enterprises, can benefit from applying web automation solutions.
-Here are some simple examples of what companies do.
+Small businesses, as well as huge enterprises, can benefit from using web automation solutions.
+Here are some examples of what companies do.
 
 When a new customer is registered in a client relations management system, create a new queue in tickets tracker.
 For every service, that customer requested inside CRM, create a new ticket in an appropriate queue.
@@ -61,13 +61,25 @@ Personal applications of web automation include:
 
 * Notifying on weather conditions on predefined times
 * Aggregating digest of social network updates
+* Deployment automation in hobbyist projects
 * Keeping tabs on online resources
 * Building complex reminders
-* Development automation
-
-
 
 ![On the Internet, nobody knows you're a dog](Internet_dog.jpg)
+
+Big part of web automation is browser automation.
+It aims to mimic how person uses web browser in order to automate repetetive scenarios.
+As it usually happens with a computer trying to be a human, the process gets incredibly complex and fragile.
+Web browser automation complexity is an effect of following inherent properties of the task:
+
+* Interactions must be defined in terms of HTML markup, which is rarely composed with this thought in mind.
+* HTML structure is rigid and changes often.
+* Browsers communicate through network inheriting all its failures and unreliability.
+
+But in many cases, it's the only option to extract content from the remote system.
+Number of paid solutions exists aiming to simplify web scraping, as well as free libraries.
+
+# Products
 
 In 2011 [Zapier](https://zapier.com) launched on [Startup Weekend](http://startupweekend.org/).
 It was the first solution of a kind.
@@ -86,27 +98,17 @@ Projects that don't follow SaaS way:
 * [Home Assistant](https://home-assistant.io/) - Platform for home automation with web automation capabilities.
 * [Kibitzr](https://kibitzr.github.io) - Command-line utility extendable with Python and Bash scripts.
 
-## Browser automation
-
-State of the art library for browser automation is [Selenium](selenium-python.readthedocs.io).
-It supports most popular platforms and browsers.
-However it's primary use case is web applications testing, it's tedious in configuration and has a high entry barrier.
-
-Browser automation complexity is an effect of following inherent properties of the task:
-
-* Interactions must be defined in terms of markup, which is rarely composed with this thought.
-* HTML structure is rigid and changes often.
-* Browsers communicate through network inheriting all its failures and unreliability.
-
-But in many cases, it's the only option to extract content from the remote system.
-Number of paid solutions exists aiming to simplify web scraping:
+Projects attempting to automate browser automation:
 
 * [Import.io](https://import.io) - turns websites into structured APIs.
 * [Portia](https://scrapinghub.com/portia/) - lets you scrape web sites without any programming knowledge required.
 * [Kimono](https://www.kimonolabs.com/) - manual tools for web page extraction.
 
-Libraries for parsing and scraping web pages:
+Open source libraries for parsing and scraping web sites:
 
+* [Selenium](https://selenium-python.readthedocs.io) - state of the art library for browser automation.
+  It supports most popular platforms and browsers.
+  However it's primary use case is web applications testing, it's tedious in configuration and has a high entry barrier.
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) parses malformed HTML.
 * [Scrapy](https://scrapy.org/) - fast and powerful scraping and web crawling framework.
 
@@ -129,7 +131,7 @@ For instance, the phone number from Wufoo form should be the work phone of the n
 
 ## Huginn
 
-[Huginn](https://github.com/huginn/huginn) is the closest alternative to Zapier.
+[Huginn](https://github.com/huginn/huginn) is the closest free alternative to Zapier.
 It's a multi-tenant system for building agents that perform automated online tasks.
 
 Huginn started in 2013 and have built a broad community with hundreds of contributors.
@@ -195,7 +197,7 @@ Instead, it can be hooked to Zapier or any other web automation provider for mis
 
 Another strong aspect of Kibitzr is support for browser automation through Selenium scripts or simplified form filling (which covers most use cases).
 
-## How to choose the right solution?
+# How to choose the right solution?
 
 There is no silver bullet, and each solution has its pros and cons.
 
