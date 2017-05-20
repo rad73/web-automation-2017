@@ -51,7 +51,7 @@ Here are some simple examples of what companies do.
 
 When new customer is registered in a client relations management system, create a new queue in tickets tracker.
 For every service, that customer requested inside CRM, create new ticket in an appropriate queue.
-That way two focused products can be combined to deliver full 
+That way two focused products can be combined to deliver complete customer satisfaction workflow.
 
 Personal applications of web automation include:
 
