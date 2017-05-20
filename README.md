@@ -2,20 +2,16 @@
 
 ## Disclaimer
 
-I'm an enthusiast and not a professional user of all mentioned products, feel free to send corrections to [GitHub repository](https://github.com/peterdemin/web-automation-2017) or [![Join the chat at https://gitter.im/web-automation/Lobby](https://badges.gitter.im/web-automation/Lobby.svg)](https://gitter.im/web-automation/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge).
+I'm an enthusiast and not a professional user of all mentioned products, feel free to send corrections to
+[GitHub repository](https://github.com/peterdemin/web-automation-2017) or
+[![Join the chat at https://gitter.im/web-automation/Lobby](https://badges.gitter.im/web-automation/Lobby.svg)](https://gitter.im/web-automation/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge).
 
 ## Purpose
 
-This document covers existing web automation projects, services, and platforms.
-
+This article covers existing web automation projects, services, and platforms.
 It's targeted to people who are just starting automation or want to switch from a bunch of shell scripts to a more solid foundation.
 
 # What is web automation
-
-*au·to·ma·tion (/ˌôdəˈmāSH(ə)n/ noun)* --
-the use of largely automatic equipment in a system of manufacturing or other production processes.
-
-Example: "Unemployment due to the spread of automation"
 
 Web automation replaces human with software for repetitive and tedious tasks, such as:
 
@@ -24,6 +20,26 @@ Web automation replaces human with software for repetitive and tedious tasks, su
 * Data extraction and transfer between applications
 * Website testing
 * Periodical report generation
+
+Small businesses, as well as huge enterprises, can benefit from using web automation solutions.
+Here are a few examples of what companies do.
+
+When a new customer is registered in a client relations management system, create a new queue in tickets tracker.
+For every service, that customer requested inside CRM, create a new ticket in an appropriate queue.
+That way two focused products can be combined to deliver complete customer satisfaction workflow.
+
+Another example. Typeform provides a stunning interface for complex forms submission, but can't process collected data.
+WebMerge fills Excel spreadsheets and run calculations, but has a deterring appearance for unprepared customer.
+Web automation connects data from Typeform to WebMerge spreadsheets and delivers a solution for instant project cost estimation.
+
+Personal applications of web automation include:
+
+* Notifying on weather conditions on predefined times
+* Aggregating digest of social network updates
+* Deployment automation in hobbyist projects
+* Keeping tabs on online resources
+* Building complex reminders
+
 
 Simple web automation scripts can be written using general tools.
 For example, crontab task that periodically runs `curl`, filters it's output with grep, and sends an e-mail in case of a match (or non-match).
@@ -46,24 +62,6 @@ Sometimes it's really hard to draw a line between automation and programming.
 
 ## Applications
 
-Small businesses, as well as huge enterprises, can benefit from using web automation solutions.
-Here are some examples of what companies do.
-
-When a new customer is registered in a client relations management system, create a new queue in tickets tracker.
-For every service, that customer requested inside CRM, create a new ticket in an appropriate queue.
-That way two focused products can be combined to deliver complete customer satisfaction workflow.
-
-Another example. Typeform provides a stunning interface for complex forms submission, but can't process collected data.
-WebMerge fills Excel spreadsheets and run calculations, but has a deterring appearance for unprepared customer.
-Web automation connects data from Typeform to WebMerge spreadsheets and delivers a solution for instant project cost estimation.
-
-Personal applications of web automation include:
-
-* Notifying on weather conditions on predefined times
-* Aggregating digest of social network updates
-* Deployment automation in hobbyist projects
-* Keeping tabs on online resources
-* Building complex reminders
 
 ![On the Internet, nobody knows you're a dog](Internet_dog.jpg)
 
@@ -190,7 +188,7 @@ Each check is a pipeline of following steps:
 
 Each step can contain arbitrary Bash or Python code snippets.
 
-Like Home Assistant, it can be launched whenever Python is available (Version 2 as well as 3).
+Like Home Assistant, it can be launched wherever Python is available (Version 2 as well as 3).
 
 Being late to the party, Kibitzr doesn't try to have all possible integrations built-in.
 Instead, it can be hooked to Zapier or any other web automation provider for missing parts.
