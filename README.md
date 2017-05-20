@@ -17,6 +17,14 @@ the use of largely automatic equipment in a system of manufacturing or other pro
 
 Example: "Unemployment due to the spread of automation"
 
+Web automation replaces human with software for repetitive and tedious tasks, such as:
+
+* Form filling
+* Screen scraping
+* Data extraction and transfer between applications
+* Website testing
+* Periodical report generation
+
 ## Overview
 
 [![On the Internet, nobody knows you're a dog](Internet_dog.jpg)]
