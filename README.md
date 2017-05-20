@@ -12,8 +12,9 @@ It's targeted to people who are just starting automation or want to switch from 
 
 ## What is web automation
 
-*au·to·ma·tion (/ˌôdəˈmāSH(ə)n/ noun)*
+*au·to·ma·tion (/ˌôdəˈmāSH(ə)n/ noun)* --
 the use of largely automatic equipment in a system of manufacturing or other production process.
+
 Example: "Unemployment due to the spread of automation"
 
 ## Overview
