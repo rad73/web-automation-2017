@@ -28,6 +28,7 @@ Web automation replaces human with software for repetitive and tedious tasks, su
 Simple web automation scripts can be written using general tools.
 For example, crontab task that periodically runs `curl`, filters it's output with grep, and sends an e-mail in case of a match (or non-match).
 This is simplistic scenario, but even it has a few problems:
+
 * HTTP errors, such as `503 - Service Temporary Unavailable`, will have poor formatting in report.
 * Complex grep expressions are unmaintainable.
 * Sending e-mail from bash is unreliable and requires system setup.
@@ -35,7 +36,7 @@ This is simplistic scenario, but even it has a few problems:
 What if you want message in instant messanger, or SMS?
 Fitting everything inside one bash script will leave you with a messy tool.
 
-A number of solutions try to remove boilerplate from web automation tasks, by providing:
+A number of solutions tries to remove boilerplate from web automation tasks, by providing:
 
 * A foundation for making network requests and connecting them to actions.
 * Collection of recipes for solving common problems built on top of the foundation.
@@ -43,12 +44,24 @@ A number of solutions try to remove boilerplate from web automation tasks, by pr
 Web automation is a subset of general software development, and so possibilities are endless.
 Sometimes it's really hard to draw a line between automation and programming.
 
+## Applications
 
-* Fetching weather prediction
+Small businesses as well as huge enterprises can benefit from applying web automation solutions.
+Here are some simple examples of what companies do.
+
+When new customer is registered in a client relations management system, create a new queue in tickets tracker.
+For every service, that customer requested inside CRM, create new ticket in an appropriate queue.
+That way two focused products can be combined to deliver full 
+
+Personal applications of web automation include:
+
+* Notifying on weather conditions on predefined times
 * Aggregating digest of social network updates
-* Building complex reminders
 * Keeping tabs on online resources
+* Building complex reminders
 * Development automation
+
+
 
 ![On the Internet, nobody knows you're a dog](Internet_dog.jpg)
 
