@@ -25,26 +25,32 @@ Web automation replaces human with software for repetitive and tedious tasks, su
 * Website testing
 * Periodical report generation
 
-## Overview
+Simple web automation scripts can be written using general tools.
+For example, crontab task that periodically runs `curl`, filters it's output with grep, and sends an e-mail in case of a match (or non-match).
+This is simplistic scenario, but even it has a few problems:
+* HTTP errors, such as `503 - Service Temporary Unavailable`, will have poor formatting in report.
+* Complex grep expressions are unmaintainable.
+* Sending e-mail from bash is unreliable and requires system setup.
 
-[![On the Internet, nobody knows you're a dog](Internet_dog.jpg)]
+What if you want message in instant messanger, or SMS?
+Fitting everything inside one bash script will leave you with a messy tool.
 
-Simple web automation scripts can be written in bash or python.
-However, this approach fails short in the face of network failures, different ways of delivering notifications and a need to transform data.
-
-A number of solutions try to remove boilerplate from web automation tasks.
-These solutions provide:
+A number of solutions try to remove boilerplate from web automation tasks, by providing:
 
 * A foundation for making network requests and connecting them to actions.
 * Collection of recipes for solving common problems built on top of the foundation.
 
-The common examples of web automation tasks include:
+Web automation is a subset of general software development, and so possibilities are endless.
+Sometimes it's really hard to draw a line between automation and programming.
+
 
 * Fetching weather prediction
 * Aggregating digest of social network updates
 * Building complex reminders
 * Keeping tabs on online resources
 * Development automation
+
+![On the Internet, nobody knows you're a dog](Internet_dog.jpg)
 
 In 2011 [Zapier](https://zapier.com) launched on [Startup Weekend](http://startupweekend.org/).
 It was the first solution of a kind.
