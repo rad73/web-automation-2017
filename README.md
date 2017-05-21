@@ -6,12 +6,10 @@ I'm an enthusiast and not a professional user of all mentioned products, feel fr
 [GitHub repository](https://github.com/peterdemin/web-automation-2017) or
 [![Join the chat at https://gitter.im/web-automation/Lobby](https://badges.gitter.im/web-automation/Lobby.svg)](https://gitter.im/web-automation/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge).
 
-## Purpose
+# Introduction
 
 This article covers existing web automation projects, services, and platforms.
 It targets people who are starting automation or want to switch from a bunch of shell scripts to a more solid foundation.
-
-# Introduction
 
 Web automation replaces human with software for repetitive and tedious tasks, such as:
 
@@ -21,8 +19,6 @@ Web automation replaces human with software for repetitive and tedious tasks, su
 * Website testing
 * Periodical report generation
  
-## Applications
-
 Small businesses, as well as huge enterprises, benefit from web automation solutions.
 Here are a few examples of what companies do.
 
