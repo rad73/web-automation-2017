@@ -149,11 +149,6 @@ The community is smaller, and the project doesn't see much attention these days.
 Project lives its life slow but sure.
 It has 900 stars on GitHub and 1000 triggers configured by 200 users on the website.
 
-## IFTTT
-
-[IFTTT](https://ifttt.com) pushes the idea of web automation to wearables and smart home appliances.
-IFTTT provides applets for mobile devices that hook to the platform.
-
 ## Bipio
 
 [Bipio](https://bip.io) approaches web automation from a slightly different angle.
@@ -165,6 +160,11 @@ Such as transforming messages, integrating "cloud" API or many other types of we
 User configures bips by defining a graph (hub) across nodes (channels).
 Channels perform a discrete unit of work and emit a predictable result.
 Collections of similar Channels live in shared resource containers called Pods.
+
+## IFTTT
+
+[IFTTT](https://ifttt.com) pushes the idea of web automation to wearables and smart home appliances.
+IFTTT provides applets for mobile devices that hook to the platform.
 
 ## Home Assistant
 
@@ -191,12 +191,16 @@ It has no user interface and doesn't need a database.
 Being late to the party, Kibitzr doesn't try to have all possible integrations built-in.
 Instead, it hooks to other web automation providers for missing parts.
 
-Kibitzr strong side is first-class support for browser automation. Both simple form filling and sophisticated Selenium scripts.
+It has first-class support for browser automation.
 
 # How to choose the right solution?
 
 There is no silver bullet, and each solution has its pros and cons.
 
-Try this flowchart
+Try this diagram
 
 ![Choose web automation foundation](decision-tree.png)
+
+# See also
+
+[Awesome-Selfhosted](https://github.com/Kickball/awesome-selfhosted#automation) has a section on automation.
