@@ -1,11 +1,9 @@
+# NOTE
+
+I published this article on medium: https://medium.com/@peterdemin/guide-to-web-automation-889557804453
+
+
 # Guide to Web Automation
-
-## Disclaimer
-
-I'm an enthusiast and not a professional user of all mentioned products, feel free to send corrections to
-[GitHub repository](https://github.com/peterdemin/web-automation-2017) or
-[![Join the chat at https://gitter.im/web-automation/Lobby](https://badges.gitter.im/web-automation/Lobby.svg)](https://gitter.im/web-automation/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge).
-
 # Introduction
 
 This article covers existing web automation projects, services, and platforms.
