@@ -203,10 +203,10 @@ Try this diagram
 
 # See also
 
-[Awesome-Selfhosted](https://github.com/Kickball/awesome-selfhosted#automation) has a section on automation.
-[Node-RED](https://nodered.org/) - programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
-[AWS Lambda](https://aws.amazon.com/lambda/) - serverless compute platform suitable for web automation tasks.
-[Kubernetes Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/) - serverless platform from Google.
-[OpenWhisk](https://github.com/apache/incubator-openwhisk) - cloud-first distributed event-based programming service.
-[Function as a Service](https://en.wikipedia.org/wiki/Function_as_a_Service) on Wikipedia
-[FAAS](http://docs.get-faas.com/) - a serverless framework for Docker
+* [Awesome-Selfhosted](https://github.com/Kickball/awesome-selfhosted#automation) has a section on automation.
+* [Node-RED](https://nodered.org/) - programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
+* [AWS Lambda](https://aws.amazon.com/lambda/) - serverless compute platform suitable for web automation tasks.
+* [Kubernetes Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/) - serverless platform from Google.
+* [OpenWhisk](https://github.com/apache/incubator-openwhisk) - cloud-first distributed event-based programming service.
+* [Function as a Service](https://en.wikipedia.org/wiki/Function_as_a_Service) on Wikipedia
+* [FAAS](http://docs.get-faas.com/) - a serverless framework for Docker
